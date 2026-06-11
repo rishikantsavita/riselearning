@@ -1,0 +1,1610 @@
+/* import files */
+@import url(variables.css);
+@import url(customglobal.css);
+
+/* responsive media query start */
+@media (max-width: 1199px) {
+  /* header start */
+
+  .nav-item {
+    margin: 0 10px;
+  }
+
+  .nav-bg {
+    margin-top: -76px;
+  }
+
+  .navbar-nav {
+    padding-left: 0px;
+  }
+
+  .abt-hero-title {
+    font-size: var(--fs-xl);
+    margin-bottom: 10px;
+  }
+  /* header end */
+
+  .container {
+    padding: 0 25px;
+  }
+}
+
+@media (max-width: 991px) {
+  /* header start */
+
+  .header-sec {
+    position: static !important;
+  }
+
+  .navbar-nav {
+    padding-left: 0;
+    margin-top: 12px;
+  }
+
+  .navbar-expand-lg .navbar-nav .nav-link {
+    padding: 15px;
+  }
+
+  .navigation {
+    padding: 10px 0px;
+  }
+
+  .navbar-brand img {
+    width: 120px;
+  }
+
+  .top-header-left a,
+  .top-header-right a {
+    font-size: 14px;
+    display: block;
+  }
+
+  .navbar-toggler {
+    background-color: var(--white);
+  }
+
+  /* header end */
+
+  /* home page */
+
+  .home-hero-sec {
+    padding: 140px 0 80px;
+  }
+
+  .home-hero-title {
+    font-size: 52px;
+  }
+
+  .home-about-title {
+    font-size: 42px;
+  }
+
+  .home-course-title {
+    font-size: 42px;
+  }
+
+  .home-why-title {
+    font-size: 42px;
+  }
+
+  .home-stat-title {
+    font-size: 42px;
+  }
+
+  .home-program-title {
+    font-size: 42px;
+  }
+
+  .home-cert-title {
+    font-size: 40px;
+  }
+
+  .home-place-title {
+    font-size: 42px;
+  }
+
+  .home-place-timeline {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .home-test-title {
+    font-size: 42px;
+  }
+
+  .home-gallery-title {
+    font-size: 42px;
+  }
+
+  .home-cta-title {
+    font-size: 42px;
+  }
+
+  .home-cta-box {
+    padding: 40px;
+  }
+
+  .cont-info-bar {
+    text-align: center;
+  }
+
+  .cont-info-sec {
+    padding: 80px 0;
+  }
+
+  .cont-info-card {
+    padding: 28px;
+  }
+
+  .cont-info-bar {
+    padding: 30px;
+  }
+
+  .cont-info-bar h3 {
+    font-size: 26px;
+  }
+
+  /*  */
+
+  .abt-hero-title {
+    font-size: 52px;
+  }
+
+  .story-title {
+    font-size: 42px;
+  }
+
+  .vmv-main-title {
+    font-size: 42px;
+  }
+
+  .dir-title {
+    font-size: 42px;
+  }
+
+  .dir-exp-card {
+    position: relative;
+    right: auto;
+    bottom: auto;
+    margin-top: 20px;
+    width: 100%;
+  }
+
+  .rise-main-title {
+    font-size: 42px;
+  }
+
+  .time-main-title {
+    font-size: 42px;
+  }
+
+  .time-item {
+    flex-direction: column;
+  }
+
+  .time-wrp::before {
+    display: none;
+  }
+
+  .time-no {
+    width: 120px;
+  }
+
+  .adm-hero-title {
+    font-size: 52px;
+  }
+
+  .adm-step-title {
+    font-size: 42px;
+  }
+
+  .adm-step-wrp::before {
+    display: none;
+  }
+
+  .elig-main-title {
+    font-size: 42px;
+  }
+
+  .elig-info-box {
+    text-align: center;
+  }
+
+  .apply-title {
+    font-size: 42px;
+  }
+
+  .cont-hero-title {
+    font-size: 48px;
+  }
+
+  .cont-form-title {
+    font-size: 38px;
+    margin-bottom: 10px;
+  }
+
+  .place-hero-title {
+    font-size: 48px;
+  }
+
+  .place-proc-main-title {
+    font-size: 42px;
+  }
+
+  .place-benef-title {
+    font-size: 42px;
+  }
+
+  .place-stat-main-title,
+  .place-sector-title {
+    font-size: 42px;
+  }
+
+  .term-hero-title,
+  .term-accept-title,
+  .term-cta-title {
+    font-size: 38px;
+    line-height: 62px;
+    margin-bottom: 0px;
+  }
+
+  .term-cta-title {
+    margin-bottom: 10px;
+  }
+
+  .term-fee-tag {
+    margin-bottom: 10px;
+  }
+
+  .term-accept-card {
+    padding: 40px;
+  }
+
+  .term-adm-main-title {
+    font-size: 42px;
+  }
+
+  .term-fee-main-title {
+    font-size: 42px;
+  }
+
+  .term-cta-box {
+    padding: 45px;
+  }
+
+  .course-hero-title,
+  .course-grid-title,
+  .course-cta-title {
+    font-size: 32px;
+  }
+
+  .place-form-title {
+    font-size: 42px;
+  }
+
+  .place-bottom-cta {
+    text-align: center;
+  }
+
+  /*  */
+  .home-hero-sec {
+    padding: 50px 0 40px;
+  }
+
+  .home-hero-title {
+    font-size: 36px;
+    line-height: var(--lh-xl);
+  }
+
+  .home-course-title {
+    font-size: 36px;
+  }
+
+  .home-course-sec {
+    padding: 50px 0;
+  }
+
+  .home-why-sec {
+    padding: 50px 0;
+  }
+
+  .home-stat-sec {
+    padding: 60px 0;
+  }
+
+  .home-stat-number {
+    margin-bottom: 25px;
+  }
+
+  .home-program-sec,
+  .home-place-sec {
+    padding: 50px 0;
+  }
+
+  .home-program-title {
+    font-size: 40px;
+    margin-bottom: 10px;
+  }
+
+  .home-place-title {
+    font-size: 36px;
+  }
+
+  .home-cert-sec,
+  .home-test-sec,
+  .home-gallery-sec {
+    padding: 50px 0;
+  }
+  .home-cta-title {
+    font-size: 36px;
+    margin-bottom: 0px;
+  }
+
+  .home-cta-badge {
+    top: 240px;
+  }
+
+  .home-cta-visual {
+    padding-bottom: 50px;
+  }
+
+  .cont-info-bar {
+    text-align: center;
+  }
+
+  .story-tag {
+    margin-bottom: 10px;
+  }
+
+  .story-title {
+    margin-bottom: 0px;
+    line-height: 60px;
+  }
+
+  .vmv-main-title {
+    font-size: 36px;
+  }
+
+  .vmv-main-title span {
+    font-size: var(--fs-sm);
+  }
+
+  .vmv-card {
+    padding: 30px 25px;
+  }
+
+  /* // */
+
+  .nav-bg {
+    margin-top: -64px;
+  }
+
+  .place-hero-title {
+    margin-bottom: 10px;
+    font-size: 36px;
+  }
+
+  .place-proc-sec {
+    padding: 60px 0px;
+  }
+
+  .place-benef-title {
+    font-size: 36px;
+  }
+
+  .place-form-title {
+    font-size: 38px;
+    line-height: 58px;
+    margin-bottom: 0px;
+  }
+
+  .place-bottom-btn {
+    margin-top: 20px;
+  }
+
+  .cont-hero-sec {
+    padding: 180px 0px 40px;
+  }
+
+  .cont-hero-title {
+    font-size: 38px;
+  }
+
+  .cont-hero-txt {
+    line-height: 28px !important;
+  }
+
+  .cont-info-sec {
+    padding: 40px 0;
+  }
+
+  .cont-info-main-title {
+    font-size: 38px;
+  }
+}
+
+@media (max-width: 767px) {
+  /* header start */
+  .top-header-left a,
+  .top-header-right a {
+    display: inline-block;
+  }
+
+  .nav-bg {
+    margin-top: -44px;
+  }
+
+  .top-header-left {
+    width: 100%;
+    text-align: center;
+  }
+
+  .navbar-expand-lg .navbar-nav .nav-link {
+    font-size: 14px;
+    padding: 10px;
+  }
+
+  .nav-item::before {
+    height: 3px;
+  }
+
+  .top-header-right {
+    display: none !important;
+  }
+
+  .top-header {
+    border-top: none !important;
+  }
+
+  /* header end */
+
+  .owl-carousel .owl-item img {
+    height: 200px;
+  }
+
+  .home-hero-sec {
+    padding: 35px 0 30px;
+  }
+
+  .home-hero-title {
+    font-size: 28px;
+    line-height: normal;
+  }
+
+  .home-hero-title span {
+    font-size: var(--fs-sm);
+  }
+
+  .home-hero-txt {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .home-about-sec {
+    padding: 30px 0;
+  }
+
+  .home-about-tag {
+    margin-bottom: 0px;
+  }
+}
+
+@media (max-width: 575px) {
+  /* header start */
+
+  .top-header {
+    border-top: 2px solid var(--secondary-color);
+  }
+
+  .top-header-right {
+    display: none;
+  }
+
+  .top-header-right a {
+    font-size: 13px;
+  }
+
+  .navbar-brand img {
+    width: 100px;
+  }
+
+  .navbar-expand-lg .navbar-nav .nav-link {
+    font-size: 13px;
+    padding: 7px;
+  }
+
+  /* header end */
+
+  /* home page */
+
+  .home-hero-tag {
+    font-size: 15px;
+    padding: 10px 20px;
+    margin-bottom: 15px;
+  }
+
+  .home-hero-title {
+    font-size: 36px;
+  }
+
+  .home-hero-btns {
+    flex-direction: column;
+  }
+
+  .home-hero-btn {
+    text-align: center;
+  }
+
+  .home-hero-card {
+    padding: 25px;
+  }
+
+  .home-about-title {
+    font-size: 28px;
+    margin-bottom: 0px;
+    line-height: 48px;
+  }
+
+  .home-about-txt {
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 10px;
+  }
+
+  .home-about-card {
+    padding: 25px;
+  }
+
+  .home-course-sec {
+    padding: 40px 0;
+  }
+
+  .home-course-title {
+    font-size: 24px;
+    line-height: 36px;
+  }
+
+  .home-course-title span {
+    font-size: var(--fs-sm);
+  }
+
+  .home-course-card {
+    padding: 25px;
+  }
+
+  .home-course-txt {
+    font-size: 16px;
+  }
+
+  .home-why-sec {
+    padding: 40px 0;
+  }
+
+  .home-why-title {
+    font-size: 28px;
+    line-height: 42px;
+    margin-bottom: 0px;
+  }
+
+  .home-why-title span {
+    font-size: var(--fs-m);
+  }
+
+  .home-why-txt {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .home-why-card {
+    padding: 25px;
+  }
+
+  .home-stat-sec {
+    padding: 40px 0;
+  }
+
+  .home-stat-title {
+    font-size: 28px;
+    margin-bottom: 0px;
+    line-height: 46px;
+  }
+
+  .home-stat-title span {
+    font-size: var(--fs-m);
+  }
+
+  .home-stat-card {
+    padding: 25px 15px;
+  }
+
+  .home-stat-number {
+    font-size: 36px;
+  }
+
+  .home-program-sec {
+    padding: 40px 0;
+  }
+
+  .home-program-title {
+    font-size: 28px;
+    margin-bottom: 0px;
+    line-height: 52px;
+  }
+
+  .home-program-title span {
+    font-size: var(--fs-sm);
+  }
+
+  .home-program-tag {
+    margin-bottom: 10px;
+  }
+
+  .home-program-txt {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .home-cert-sec {
+    padding: 40px 0;
+  }
+
+  .home-cert-title {
+    font-size: 28px;
+  }
+
+  .home-cert-item {
+    min-width: 150px;
+    padding: 15px;
+    font-size: 14px;
+  }
+
+  .home-place-sec {
+    padding: 40px 0;
+  }
+
+  .home-place-title {
+    font-size: 28px;
+  }
+
+  .home-place-timeline {
+    grid-template-columns: 1fr;
+  }
+
+  .home-test-sec {
+    padding: 40px 0;
+  }
+
+  .home-test-title {
+    font-size: 28px;
+    line-height: 46px;
+    margin-bottom: 0px;
+  }
+
+  .home-test-txt {
+    font-size: 16px;
+  }
+
+  .home-test-title span,
+  .home-gallery-title span {
+    font-size: var(--fs-m);
+  }
+
+  .home-test-card {
+    padding: 25px;
+  }
+
+  .home-gallery-sec {
+    padding: 40px 0;
+  }
+
+  .home-gallery-title {
+    font-size: 28px;
+    margin-bottom: 0px;
+    line-height: 46px;
+  }
+
+  .home-gallery-item img {
+    height: 220px;
+  }
+
+  .home-cta-sec {
+    padding: 40px 0;
+  }
+
+  .home-cta-box {
+    padding: 25px;
+  }
+
+  .home-cta-title {
+    font-size: 28px;
+    line-height: 46px;
+  }
+
+  .home-cta-title span {
+    font-size: var(--fs-m);
+  }
+
+  .home-cta-circle {
+    width: 180px;
+    height: 180px;
+    font-size: 16px;
+  }
+
+  /*  */
+
+  .abt-hero-title {
+    font-size: 26px;
+    line-height: 42px;
+  }
+
+  .abt-hero-txt {
+    font-size: 16px;
+  }
+
+  .story-sec {
+    padding: 40px 0;
+  }
+
+  .story-title {
+    font-size: 24px;
+    margin-bottom: 0px;
+  }
+
+  .story-card {
+    padding: 25px;
+  }
+
+  .story-card h3 {
+    font-size: 40px;
+  }
+
+  .vmv-sec {
+    padding: 40px 0;
+  }
+
+  .vmv-main-title {
+    font-size: 24px;
+    margin-bottom: 0px;
+  }
+
+  .vmv-main-txt {
+    font-size: var(--fs-vsm);
+  }
+
+  .vmv-card {
+    padding: 30px 25px;
+  }
+
+  .vmv-title {
+    font-size: 24px;
+  }
+
+  .dir-sec {
+    padding: 40px 0;
+  }
+
+  .dir-title {
+    font-size: 34px;
+    line-height: 54px;
+    margin-bottom: 0px;
+  }
+
+  .dir-title span {
+    font-size: var(--fs-sm);
+  }
+
+  .dir-txt {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .dir-img-box {
+    padding: 10px;
+    border-radius: 20px;
+  }
+
+  .dir-quote {
+    padding: 25px;
+  }
+
+  .dir-sign h4 {
+    font-size: 24px;
+  }
+
+  .rise-sec {
+    padding: 40px 0;
+  }
+
+  .rise-main-title,
+  .time-main-title {
+    font-size: 28px;
+    line-height: 46px;
+    margin-bottom: 0px;
+  }
+
+  .rise-main-title span,
+  .time-main-title span {
+    font-size: var(--fs-sm);
+  }
+
+  .rise-main-txt,
+  .time-main-txt {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .rise-card,
+  .time-cnt {
+    padding: 20px;
+  }
+
+  .rise-title {
+    font-size: 22px;
+  }
+
+  .time-sec {
+    padding: 40px 0;
+  }
+
+  .time-no {
+    height: 60px;
+    border-radius: 20px;
+  }
+
+  .time-cnt p {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .time-cnt h3 {
+    font-size: 20px;
+  }
+
+  .time-cta {
+    padding: 20px;
+  }
+
+  .time-cta h3 {
+    font-size: 20px;
+  }
+
+  .adm-hero-sec {
+    padding: 140px 0 40px;
+  }
+
+  .adm-hero-title {
+    font-size: 28px;
+    margin-bottom: 0px;
+    line-height: 48px;
+  }
+
+  .adm-hero-txt {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .adm-hero-btns {
+    gap: 10px;
+    margin-top: 20px;
+  }
+
+  .adm-btn {
+    padding: 12px 24px;
+    font-size: 15px;
+  }
+
+  .adm-hero-card {
+    padding: 20px;
+  }
+
+  .adm-hero-card h3 {
+    font-size: 28px;
+  }
+
+  .adm-hero-card p {
+    line-height: 24px;
+  }
+
+  .adm-info-box {
+    width: 100%;
+  }
+
+  .adm-step-sec {
+    padding: 40px 0;
+  }
+
+  .adm-step-title span {
+    font-size: var(--fs-sm);
+  }
+
+  .adm-step-title {
+    font-size: 28px;
+    line-height: 48px;
+    margin-bottom: 10px;
+  }
+
+  .adm-step-txt {
+    font-size: 16px;
+  }
+
+  .adm-step-card {
+    padding: 30px 22px;
+  }
+
+  .adm-step-no {
+    width: 75px;
+    height: 75px;
+    font-size: 24px;
+  }
+
+  .adm-step-card h3 {
+    font-size: 20px;
+  }
+
+  .elig-sec {
+    padding: 40px 0;
+  }
+
+  .elig-main-title {
+    font-size: 24px;
+    line-height: 44px;
+    margin-bottom: 10px;
+  }
+
+  .elig-main-title span {
+    font-size: var(--fs-sm);
+  }
+
+  .elig-main-txt {
+    font-size: 16px;
+    margin-bottom: 0px;
+  }
+
+  .elig-card {
+    padding: 24px;
+  }
+
+  .elig-info-box {
+    padding: 20px;
+  }
+
+  .elig-info-box h3 {
+    font-size: 24px;
+  }
+
+  .elig-info-box p {
+    margin-bottom: 20px;
+    line-height: 28px;
+    font-size: 16px;
+  }
+
+  .apply-sec {
+    padding: 40px 0;
+  }
+
+  .apply-title {
+    font-size: 28px;
+    line-height: 48px;
+    margin-bottom: 0px;
+  }
+
+  .apply-txt {
+    font-size: 16px;
+  }
+
+  .apply-form-wrp {
+    padding: 20px;
+  }
+
+  .apply-form-head h3 {
+    font-size: 24px;
+  }
+
+  .apply-form-head p {
+    margin-bottom: 20px;
+  }
+
+  .cont-hero-sec {
+    padding: 140px 0 80px;
+  }
+
+  .cont-hero-title {
+    font-size: 28px;
+    line-height: 48px;
+  }
+
+  .cont-hero-title span {
+    font-size: var(--fs-m);
+  }
+
+  .cont-hero-txt {
+    font-size: 16px;
+  }
+
+  .cont-hero-btns {
+    margin-top: 20px;
+  }
+
+  .cont-hero-card {
+    padding: 20px;
+  }
+
+  .cont-card-head h3 {
+    font-size: 28px;
+    margin-bottom: 10px;
+  }
+
+  .cont-card-item {
+    gap: 12px;
+  }
+
+  .cont-stat-card {
+    padding: 25px;
+  }
+
+  .cont-form-sec {
+    padding: 40px 0;
+  }
+
+  .cont-form-title {
+    font-size: 28px;
+    line-height: 52px;
+  }
+
+  .cont-form-txt {
+    font-size: 16px;
+  }
+
+  .cont-form-right {
+    padding: 25px;
+  }
+
+  .cont-form-head h3 {
+    font-size: 26px;
+  }
+
+  .place-hero-sec {
+    padding: 140px 0 40px;
+  }
+
+  .place-hero-title {
+    font-size: 36px;
+  }
+
+  .place-hero-card {
+    padding: 25px;
+  }
+
+  .place-proc-sec {
+    padding: 40px 0;
+  }
+
+  .place-proc-main-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+
+  .place-proc-main-title span {
+    font-size: var(--fs-sm);
+  }
+
+  .place-proc-main-txt {
+    font-size: 16px;
+  }
+
+  .place-proc-card {
+    padding: 28px;
+  }
+
+  .place-proc-title {
+    font-size: 22px;
+  }
+
+  .place-step-no {
+    font-size: 34px;
+  }
+
+  .place-benef-title span {
+    font-size: var(--fs-m);
+  }
+
+  .place-benef-txt {
+    font-size: 16px;
+  }
+
+  .place-benef-sec {
+    padding: 40px 0;
+  }
+
+  .place-benef-title {
+    font-size: 28px;
+    margin-bottom: 10px;
+  }
+
+  .place-benef-card {
+    padding: 25px;
+  }
+
+  .place-benef-card-title {
+    font-size: 20px;
+  }
+
+  .place-stat-sec {
+    padding: 40px 0;
+  }
+
+  .place-stat-main-title,
+  .place-sector-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+
+  .place-stat-main-title span,
+  .place-sector-title span {
+    font-size: var(--fs-sm);
+  }
+
+  .place-stat-main-txt {
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 0px;
+  }
+
+  .place-stat-num {
+    margin-bottom: 0px;
+  }
+
+  .place-stat-card,
+  .place-sector-card {
+    padding: 25px;
+  }
+
+  .place-stat-num {
+    font-size: 42px;
+  }
+
+  .term-hero-sec {
+    padding: 140px 0 40px;
+  }
+
+  .term-hero-title {
+    font-size: 24px;
+    margin-bottom: 0px;
+    line-height: 49px;
+  }
+
+  .term-hero-title span,
+  .term-accept-title span {
+    font-size: var(--fs-sm);
+  }
+
+  .term-hero-txt,
+  .term-accept-txt {
+    font-size: 16px;
+  }
+
+  .term-hero-btns {
+    gap: 10px;
+    margin-top: 20px;
+  }
+
+  .term-hero-btn {
+    font-size: 15px;
+    padding: 12px 24px;
+  }
+
+  .term-card-head h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+
+  .term-card-item p {
+    font-size: 15px;
+  }
+
+  .term-hero-card {
+    padding: 20px;
+  }
+
+  .term-accept-sec {
+    padding: 40px 0;
+  }
+
+  .term-accept-card {
+    padding: 20px;
+  }
+
+  .term-accept-title {
+    font-size: 26px;
+    line-height: 48px;
+  }
+
+  .term-accept-list {
+    padding: 20px;
+  }
+
+  .term-accept-list h4 {
+    font-size: 20px;
+  }
+
+  .term-accept-note h3 {
+    font-size: 24px;
+  }
+
+  .term-adm-sec {
+    padding: 40px 0;
+  }
+
+  .term-adm-main-title {
+    font-size: 28px;
+    margin-bottom: 0px;
+  }
+
+  .term-adm-card {
+    padding: 20px;
+  }
+
+  .term-adm-title {
+    font-size: 22px;
+  }
+
+  .term-adm-main-txt {
+    font-size: 16px;
+    margin-bottom: 0px;
+  }
+
+  .term-adm-note {
+    padding: 20px;
+    margin-top: 20px;
+  }
+
+  .term-adm-note h3 {
+    font-size: 20px;
+  }
+
+  .term-adm-note p,
+  .term-fee-main-txt {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .term-fee-note h4 {
+    font-size: 22px;
+  }
+
+  .term-fee-sec {
+    padding: 40px 0;
+  }
+
+  .term-fee-main-title {
+    font-size: 28px;
+    line-height: 48px;
+    margin-bottom: 0px;
+  }
+
+  .term-fee-main-title span,
+  .term-cta-title span {
+    font-size: var(--fs-m);
+  }
+
+  .term-fee-card {
+    padding: 25px;
+  }
+
+  .term-fee-title {
+    font-size: 20px;
+  }
+
+  .term-fee-note {
+    padding: 25px;
+  }
+
+  .term-cta-sec {
+    padding: 40px 0;
+  }
+
+  .term-cta-box {
+    padding: 20px;
+  }
+
+  .term-cta-title {
+    font-size: 28px;
+    line-height: 52px;
+    margin-bottom: 0px;
+  }
+
+  .term-policy-note {
+    padding: 20px;
+    margin-top: 20px;
+  }
+
+  .term-cta-txt {
+    font-size: 16px;
+  }
+
+  .term-policy-note h3 {
+    font-size: 24px;
+  }
+
+  .course-hero-title,
+  .course-grid-title,
+  .course-cta-title {
+    font-size: 32px;
+  }
+
+  .course-card,
+  .course-cta-box {
+    padding: 20px;
+  }
+
+  .place-form-sec {
+    padding: 40px 0;
+  }
+
+  .place-form-title {
+    font-size: 26px;
+    line-height: 42px;
+  }
+
+  .place-form-txt {
+    font-size: 16px;
+  }
+
+  .place-form-right {
+    padding: 25px;
+  }
+
+  .place-form-head h3 {
+    font-size: 24px;
+  }
+
+  .place-bottom-cta {
+    padding: 30px;
+  }
+
+  .place-bottom-cta h3 {
+    font-size: 24px;
+    line-height: 36px;
+  }
+
+  /* //// */
+
+  .home-stat-txt,
+  .home-place-txt,
+  .home-cert-txt,
+  .home-gallery-txt,
+  .home-cta-txt {
+    font-size: 16px;
+  }
+
+  .home-place-title {
+    font-size: 24px;
+    margin-bottom: 0px;
+    line-height: 42px;
+  }
+
+  .home-place-title span,
+  .home-cert-title span {
+    font-size: var(--fs-m);
+  }
+
+  .home-cert-tag {
+    margin-bottom: 10px;
+  }
+
+  .home-cert-title {
+    line-height: 46px;
+    margin-bottom: 0px;
+  }
+
+  .home-cert-slider {
+    padding: 16px;
+  }
+
+  .home-cta-badge {
+    top: 195px;
+  }
+
+  .hero-owl-carousel {
+    padding-top: 105px;
+  }
+
+  .foot-bottom p {
+    font-size: 16px;
+  }
+
+  .foot-box {
+    padding: 0px !important;
+    margin: 0px !important;
+    margin-top: 20px !important;
+  }
+
+  .foot-title {
+    margin-bottom: 20px;
+  }
+
+  .cont-info-sec {
+    padding: 40px 0;
+  }
+
+  .cont-info-main-title {
+    font-size: 28px;
+    line-height: 52px;
+    margin-bottom: 0px;
+  }
+
+  .cont-info-main-txt {
+    font-size: 16px;
+    margin-bottom: 0px;
+  }
+
+  .cont-info-card {
+    padding: 24px;
+  }
+
+  .cont-info-bar {
+    padding: 30px;
+  }
+
+  .cont-info-bar h3 {
+    font-size: 26px;
+  }
+
+  .abt-hero-sec {
+    padding: 160px 0 30px;
+  }
+
+  .abt-hero-tag {
+    margin-bottom: 10px;
+  }
+
+  .abt-hero-title span {
+    font-size: var(--fs-sm);
+  }
+
+  .abt-hero-bread strong,
+  .abt-hero-bread a {
+    font-size: var(--fs-vsm);
+  }
+
+  .story-title span {
+    font-size: var(--fs-sm);
+  }
+
+  .story-txt {
+    font-size: 16px;
+    margin-bottom: 12px;
+  }
+
+  .vmv-tag {
+    margin-bottom: 10px;
+  }
+
+  .course-hero-sec {
+    padding: 140px 0 50px;
+  }
+
+  .course-hero-title span {
+    font-size: var(--fs-sm);
+  }
+
+  .course-hero-title {
+    font-size: 28px;
+    margin-bottom: 0px;
+    line-height: 48px;
+  }
+
+  .course-hero-txt {
+    font-size: 16px;
+    margin-bottom: 0px;
+  }
+
+  .course-grid-sec {
+    padding: 40px 0px;
+  }
+
+  .course-grid-title {
+    font-size: 24px;
+    line-height: 42px;
+    margin-bottom: 0px;
+  }
+
+  .course-card-title {
+    font-size: 22px;
+  }
+
+  .course-cta-sec {
+    padding: 40px 0px;
+  }
+
+  .course-cta-title {
+    font-size: 24px;
+    line-height: 42px;
+  }
+
+  .place-hero-title {
+    font-size: 30px;
+  }
+
+  .place-hero-title span {
+    font-size: var(--fs-m);
+  }
+
+  .place-hero-txt {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .place-hero-btns {
+    gap: 8px;
+    margin-top: 20px;
+  }
+
+  .place-hero-btn {
+    padding: 12px 20px;
+    font-size: 14px;
+  }
+
+  .place-card-head h3 {
+    margin-bottom: 10px;
+    font-size: 24px;
+  }
+  .place-card-item {
+    gap: 14px;
+    padding: 12px 0;
+  }
+
+  .place-card-item h5 {
+    font-size: 18px;
+  }
+
+  .place-card-item p {
+    font-size: 15px;
+  }
+
+  .place-benef-box {
+    margin-top: 20px;
+    padding: 20px;
+  }
+
+  .place-benef-box h4 {
+    font-size: 20px;
+  }
+
+  .place-benef-box p {
+    font-size: 15px;
+  }
+
+  .place-form-title span {
+    font-size: var(--fs-sm);
+  }
+
+  .cont-info-tag {
+    margin-bottom: 10px;
+  }
+
+  .foot-news-title {
+    font-size: var(--fs-sm);
+  }
+
+  .foot-logo-text {
+    line-height: 36px;
+  }
+}
+
+@media (max-width: 392px) {
+  .top-header-left a,
+  .top-header-right a {
+    font-size: 13px;
+  }
+
+  .adm-btn {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 401px) {
+  .home-hero-tag {
+    font-size: 14px;
+    padding: 10px 16px;
+  }
+}
